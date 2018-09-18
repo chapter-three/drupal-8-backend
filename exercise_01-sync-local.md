@@ -46,4 +46,13 @@ We're assuming that you've arrived at this point after having completed our [Dru
     git checkout master
     ```
 
-    and we're done!
+7. Finally we'll run
+
+    ```bash
+    git pull
+    ```
+
+    To pull in any upstream changes.
+
+
+Now we should be all synced up and ready to move on to our next exercise!
