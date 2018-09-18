@@ -4,19 +4,6 @@
 
 This hands-on training aspires to give you the tools you need to begin developing custom modules in Drupal 8.
 
-Along the way, we'll cover:
-
-- Setting up Your local development environment 
-- Working with YAML files
-- Adding assets responsibly
-- Getting, modifying and display Drupal data in the template
-- Cool Twig tips and Tricks
-- Preprocessing template functions and hooks
-- Basic OOPHP principles
-- Kint, theme_debug and other changes to debugging
-- Leveraging new Drupal 8 site building paradigms to make theming easier
-- Where to find help
-
 ## Exercises
  
 [Exercise 1 - Local Setup](exercise_01-sync-local.md)
