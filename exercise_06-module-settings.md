@@ -1,3 +1,7 @@
+#### [Drupal 8 Backend Training](README.md)
+
+## Exercise 6:
+
 ## Module Settings
 
 With Drupal console, you can create module settings forms and design values to be stored in config through the interactive command line interface. The generate command is `generate:form:config`.
@@ -104,4 +108,4 @@ Available types: button, checkbox, checkboxes, color, date, datelist, datetime, 
  > Configuration for the example module.
 ```
 
-[Exercise 7](exercise_07-plugins.md)
+[Next Exercise (#7 Plugins)](exercise_07-plugins.md)

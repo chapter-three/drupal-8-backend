@@ -51,4 +51,4 @@ In this exercise we will create a service that calculates California sales tax.
     }
     ```
 
-[Exercise 5](exercise_05-hooks-and-events.md)
+[Next Exercise (#5 Hooks and Events)](exercise_05-hooks-and-events.md)

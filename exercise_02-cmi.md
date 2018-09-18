@@ -42,4 +42,4 @@ In this exercise we will import the config currently saved in git, make and expo
 
 8. Now let's commit our change to git and write a meaningful commit message. This is left as an exercise, feel free to speak up if you need a little refresher!
 
-[Exercise 3](exercise_03-routes-and-controllers.md)
+[Next Exercise (#3 Routes and Controllers)](exercise_03-routes-and-controllers.md)

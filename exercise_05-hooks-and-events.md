@@ -12,4 +12,4 @@
 
 
 
-[Exercise 6](exercise_06-module-settings.md)
+[Next Exercise (#6 Module Settings)](exercise_06-module-settings.md)

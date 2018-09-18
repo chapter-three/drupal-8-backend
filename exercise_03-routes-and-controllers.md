@@ -1,3 +1,7 @@
+#### [Drupal 8 Backend Training](README.md)
+
+## Exercise 3:
+
 ## Routes and Controllers
 
 The simplest way to create a custom page in drupal is with a controller. You can use drupal console to create a controller and inject a service into it. That service can be used to get information. We will cover services more in depth in the next exercise, where we will create a custom one.
@@ -141,4 +145,4 @@ This is optional, press enter to continue
  > yes
 ```
 
-[Exercise 4](exercise_04-custom-services.md)
+[Next Exercise (#4 Custom Services)](exercise_04-custom-services.md)
