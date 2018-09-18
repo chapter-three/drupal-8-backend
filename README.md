@@ -26,9 +26,9 @@ This hands-on training aspires to give you the tools you need to begin developin
 
 [Exercise 2 - Configuration Management](exercise_02-cmi.md)
 
-[Exercise 3 - Hooks and Events](exercise_03-hooks-and-events.md)
+[Exercise 3 - Custom Services](exercise_03-custom-services.md)
 
-[Exercise 4 - Custom Services](exercise_04-custom-services.md)
+[Exercise 4 - Hooks and Events](exercise_04-hooks-and-events.md)
 
 [Exercise 5 - Routes and Controllers](exercise_05-routes-and-controllers.md)
 
