@@ -10,17 +10,18 @@ We're assuming that you've arrived at this point after having completed our [Dru
 
 2. Run the command 
 
-    ```bash
-    git status
-    ``` 
+  ```bash
+  git status
+  ``` 
 
   to view your un-committed changes.
 
 3. We're now going to create a new branch, named after you, to store your changes. Run the command 
 
-    ```bash
-    git checkout -b YOURNAME
-    ``` 
+  ```bash
+  git checkout -b YOURNAME
+  ``` 
+
   replacing "YOURNAME" with... your name. The `git checkout` command is what we use to switch between branches, and the `-b` flag is telling git that we want to create a new branch before switching.
 
 4. Now that we're on a new branch we want to commit our changes. Typically we would add files one at a time using the command `git add FILENAME` and write meaningful commit messages for each change, but in the interest of saving time we're going to commit all of our files at once. From the docroot run the command 
