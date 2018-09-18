@@ -56,7 +56,7 @@ The first thing we will need to do is create a custom module as a starting point
 
     You should now have the required module files: `example.info.yml` and `example.module` under `/modules/custom/example`.
 
-2. Next let's use drupal console to generate a controller. Follow the directions below, but make sure to use `lando drupal` instead of `vendor/bin/drupal`
+2. Next let's use drupal console to generate a controller. Follow the example below, but make sure to use `lando drupal` instead of `vendor/bin/drupal`
 
 ![Generate Controller](https://user-images.githubusercontent.com/159693/45672711-bd397c00-badd-11e8-9660-08010da7949d.png)
 
