@@ -1,10 +1,66 @@
 ## Routes and Controllers
 
-The is a simple way to create a custom page in drupal is with a controller. You can use drupal console to create a controller and inject a service into it. That service can be used to get information.
+The simplest way to create a custom page in drupal is with a controller. You can use drupal console to create a controller and inject a service into it. That service can be used to get information. We will cover services more in depth in the next exercise, where we will create a custom one.
+
+The first thing we will need to do is create a custom module as a starting point. Let's use [Drupal Console](https://drupalconsole.com/) to do some scaffolding for us:
+
+1. Navigate to your drupal root on the command line and type
+
+    ```bash
+    lando drupal generate:module
+    ```
+
+    This may look a little confusing, but `drupal` is just the name of the executable for drupal console. This command will start up an interactive prompt -- enter the following (an empty prompt signifies that you can hit enter to confirm the default value)
+
+    ```bash
+     Enter the new module name:
+     > Example
+
+     Enter the module machine name [example]:
+     >
+
+     Enter the module Path [modules/custom]:
+     >
+
+     Enter module description [My Awesome Module]:
+     >
+
+     Enter package name [Custom]:
+     >
+
+     Enter Drupal Core version [8.x]:
+     >
+
+     Do you want to generate a .module file? (yes/no) [yes]:
+     >
+
+     Define module as feature (yes/no) [no]:
+     >
+
+     Do you want to add a composer.json file to your module? (yes/no) [yes]:
+     >
+
+     Would you like to add module dependencies? (yes/no) [no]:
+     >
+
+     Do you want to generate a unit test class? (yes/no) [yes]:
+     >
+
+     Do you want to generate a themeable template? (yes/no) [yes]:
+     >
+
+     Do you want proceed with the operation? (yes/no) [yes]:
+     >
+
+    ```
+
+    You should now have the required module files: `example.info.yml` and `example.module` under `/modules/custom/example`.
+
+2. Next let's use drupal console to generate a controller. Follow the directions below, but make sure to use `lando drupal` instead of `vendor/bin/drupal`
 
 ![Generate Controller](https://user-images.githubusercontent.com/159693/45672711-bd397c00-badd-11e8-9660-08010da7949d.png)
 
-Edit `web/modules/custom/example/src/Controller/ExampleController.php` change `getSiteName` to look like the following:
+3. Edit `web/modules/custom/example/src/Controller/ExampleController.php` change `getSiteName` to look like the following:
 
 ```
   /**
@@ -23,7 +79,7 @@ Edit `web/modules/custom/example/src/Controller/ExampleController.php` change `g
   }
 ```
 
-Make note of the `example.routing.yml` file. This file tells drupal that there is a page that can be loaded at the `example/site-name` path and how to load it.
+4. Make note of the `example.routing.yml` file. This file tells drupal that there is a page that can be loaded at the `example/site-name` path and how to load it.
 
 ```
 example.example_controller_getSiteName:

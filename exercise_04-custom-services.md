@@ -10,59 +10,7 @@ What is a service container? A service container is basically just a global obje
 
 In this exercise we will create a service that calculates California sales tax.
 
-1. Let's use drupal console to help us generate some scaffolding. First we'll need to create a custom module. Navigate to your drupal docroot and run the command:
-
-    ```bash
-    lando drupal generate:module
-    ```
-
-    This will start up an interactive prompt -- enter the following (if the prompt is empty you can hit enter to confirm the default value)
-
-    ```bash
-     Enter the new module name:
-     > Example
-
-     Enter the module machine name [example]:
-     >
-
-     Enter the module Path [modules/custom]:
-     >
-
-     Enter module description [My Awesome Module]:
-     >
-
-     Enter package name [Custom]:
-     >
-
-     Enter Drupal Core version [8.x]:
-     >
-
-     Do you want to generate a .module file? (yes/no) [yes]:
-     >
-
-     Define module as feature (yes/no) [no]:
-     >
-
-     Do you want to add a composer.json file to your module? (yes/no) [yes]:
-     >
-
-     Would you like to add module dependencies? (yes/no) [no]:
-     >
-
-     Do you want to generate a unit test class? (yes/no) [yes]:
-     >
-
-     Do you want to generate a themeable template? (yes/no) [yes]:
-     > no
-
-     Do you want proceed with the operation? (yes/no) [yes]:
-     >
-
-    ```
-
-    You should now have an example.info.yml and an example.module file under `/modules/custom/example`
-
-2. Now we can use console to generate the scaffolding for our service. Navigate to your drupal docroot and run the command:
+1. Now we can use console to generate the scaffolding for our service. Navigate to your drupal docroot and run the command:
 
     ```bash
     lando drupal generate:service
@@ -93,9 +41,9 @@ In this exercise we will create a service that calculates California sales tax.
      >
      ```
 
-3. You now have all the scaffolding code needed for a custom service. Open `/modules/custom/example/example.services.yml`. This is the file that defines your module's services. Observe our `example.tax_calc` service specifies that it uses the class `Drupal\example\ExampleTaxCalc`. This class can be found in `/modules/custom/example/src/ExampleTaxCalc.php`, open that file now.
+2. You now have all the scaffolding code needed for a custom service. Open `/modules/custom/example/example.services.yml`. This is the file that defines your module's services. Observe our `example.tax_calc` service specifies that it uses the class `Drupal\example\ExampleTaxCalc`. This class can be found in `/modules/custom/example/src/ExampleTaxCalc.php`, open that file now.
 
-4. Let's create a method that actually does something! Add the following code to the `ExampleTaxCalc` class:
+3. Let's create a method that actually does something! Add the following code to the `ExampleTaxCalc` class:
 
     ```php
     public function calculateCaliforniaSalesTax($amount) {
