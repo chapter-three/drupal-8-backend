@@ -1,6 +1,6 @@
 #### [Drupal 8 Backend Training](README.md)
 
-## Exercise 2:
+# Exercise 2:
 
 ## Configuration Management
 

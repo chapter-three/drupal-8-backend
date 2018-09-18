@@ -1,6 +1,6 @@
 #### [Drupal 8 Backend Training](README.md)
 
-## Exercise 3:
+# Exercise 3:
 
 ## Routes and Controllers
 

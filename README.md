@@ -30,7 +30,7 @@ This hands-on training aspires to give you the tools you need to begin developin
 
 [Exercise 4 - Custom Services](exercise_04-custom-services.md)
 
-[Exercise 5 - Hooks and Events](exercise_05-hooks-and-events.md)
+[Exercise 5 - Events](exercise_05-events.md)
 
 [Exercise 6 - Module Settings](exercise_06-module-settings.md)
 

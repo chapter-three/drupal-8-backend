@@ -1,6 +1,6 @@
 #### [Drupal 8 Backend Training](README.md)
 
-## Exercise 6:
+# Exercise 6:
 
 ## Module Settings
 
