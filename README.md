@@ -4,6 +4,22 @@
 
 This hands-on training aspires to give you the tools you need to begin developing custom modules in Drupal 8.
 
+## Notes:
+
+* All terminal commands are run from the Drupal root. 
+
+* `$` indicates a prompt. You do not need to type it into the terminal window.
+
+* `MYDRUPAL` refers to the Drupal root directory or base URL.
+
+* You'll have an easier time if you configure your editor to use spaces instead of tabs. 
+
+* Feel free to ask any of the "Questions you may have ..." someone probably asked the question before!
+
+* If you're using Lando, `composer` becomes `lando composer`, `drush` becomes `lando drush`.  
+
+* See a mistake or typo? Submit a pull request on Github! 
+
 ## Exercises
  
 [Exercise 1 - Local Setup](exercise_01-sync-local.md)
