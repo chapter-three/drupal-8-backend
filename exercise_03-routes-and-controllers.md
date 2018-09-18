@@ -91,6 +91,14 @@ example.example_controller_getSiteName:
     _permission: 'access content'
 ```
 
+5. Enable your module using the following command:
+
+```bash
+lando drush en example -y
+```
+
+6. Visit your local development site and navigate to the path defined in your routing file (/example/site-name).
+
 #### Cheat sheet
 `generate:controller` parameters:
 
