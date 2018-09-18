@@ -56,3 +56,5 @@ We're assuming that you've arrived at this point after having completed our [Dru
 
 
 Now we should be all synced up and ready to move on to our next exercise!
+
+[Exercise 2](exercise_02-cmi.md)

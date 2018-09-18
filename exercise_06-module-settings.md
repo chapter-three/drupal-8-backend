@@ -103,3 +103,5 @@ Available types: button, checkbox, checkboxes, color, date, datelist, datetime, 
  A description for the menu link [A description for the menu entry]:
  > Configuration for the example module.
 ```
+
+[Exercise 7](exercise_07-plugins.md)

@@ -50,3 +50,5 @@ In this exercise we will create a service that calculates California sales tax.
       return 1.0725 * $amount;
     }
     ```
+
+[Exercise 5](exercise_05-hooks-and-events.md)

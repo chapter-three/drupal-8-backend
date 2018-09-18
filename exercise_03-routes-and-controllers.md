@@ -140,3 +140,5 @@ This is optional, press enter to continue
  Do you want proceed with the operation? (yes/no) [yes]:
  > yes
 ```
+
+[Exercise 4](exercise_04-custom-services.md)

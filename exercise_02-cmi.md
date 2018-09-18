@@ -41,3 +41,5 @@ In this exercise we will import the config currently saved in git, make and expo
 7. Go back to the `/sites/default/config` directory and open node.type.article.yml. Do you see your change?
 
 8. Now let's commit our change to git and write a meaningful commit message. This is left as an exercise, feel free to speak up if you need a little refresher!
+
+[Exercise 3](exercise_03-routes-and-controllers.md)
