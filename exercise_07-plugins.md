@@ -11,6 +11,10 @@ In this exercise we will use drupal console to generate a custom block.
 1. Use Drupal console to generate a block plugin:
 
     ```bash
+    lando drupal generate:plugin:block
+    ```
+
+    ```bash
     Enter the module name [admin_toolbar]:
      > example
 
