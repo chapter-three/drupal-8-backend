@@ -4,9 +4,9 @@
 
 ## Creating a custom service.
 
-You may be aware that Drupal has undergone a sea change in it's transition from 7 to 8. In addition to (almost) fully adopting an object oriented approach, Drupal 8 draws heavily from external frameworks and libraries. The most significant cornerstone of our new version of Drupal is the Symfony framework, a service oriented full stack php framework. Drupal 8 draws heavily from Symfony, using it for request and response handling, routes and controllers, templating, and, you guessed it, for services and the service container.
+You may be aware that Drupal has undergone a sea of change in its transition from 7 to 8. In addition to (almost) fully adopting an object oriented approach, Drupal 8 draws heavily from external frameworks and libraries. The most significant cornerstone of our new version of Drupal is the Symfony framework, a service oriented full stack php framework. Drupal 8 draws heavily from Symfony, using it for request and response handling, routes and controllers, templating, and, you guessed it, for services and the service container.
 
-What is a service container? A service container is basically just a global object that you can use to retrieve services. What are services? Services are essentially just useful chunks of code that might be reused throughout your site. For example some services provided by core include `logger.factory` which you can use to create log entries (essentially replaces watchdog from d7), and `messenger` which you can use instead of `drupal_set_message`. Pulling these services from the service container allows Drupal to handle dependency management and to ensure that only services being used are actually instantiated, this leads to a cleaner more organized codebase, while providing performance benefits over other object oriented architectures.
+What is a service container? A service container is basically just a global object that you can use to retrieve services. What are services? Services are essentially just useful chunks of code that might be reused throughout your site. For example some services provided by core include `logger.factory` which you can use to create log entries (essentially replacing watchdog from d7), and `messenger` which you can use instead of `drupal_set_message`. Pulling these services from the service container allows Drupal to handle dependency management and to ensure that only services being used are actually instantiated. This leads to a cleaner, more organized codebase, while providing performance benefits over other object oriented architectures.
 
 In this exercise we will create a service that flips a string.
 
@@ -41,7 +41,7 @@ In this exercise we will create a service that flips a string.
      >
      ```
 
-2. You now have all the scaffolding code needed for a custom service. Open `/modules/custom/example/example.services.yml`. This is the file that defines your module's services. Observe our `example.string_flip` service specifies that it uses the class `Drupal\example\ExampleStringFlip`. This class can be found in `/modules/custom/example/src/ExampleStringFlip.php`, open that file now.
+2. You now have all the scaffolding code needed for a custom service. Open `/modules/custom/example/example.services.yml`. This is the file that defines your module's services. Observe that our `example.string_flip` service specifies that it uses the class `Drupal\example\ExampleStringFlip`. This class can be found in `/modules/custom/example/src/ExampleStringFlip.php`. Please open that file now.
 
 3. Let's create a method that actually does something! Add the following code to the `ExampleStringFlip` class:
 
